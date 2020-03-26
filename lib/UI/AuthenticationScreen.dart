@@ -26,7 +26,7 @@ class _AuthScreenState extends State<AuthScreen> {
                 ),
                 child: Center(
                   child: Text(
-                    "Pigeon",
+                    'Pigeon',
                     style: TextStyle(
                       color: Colors.blueGrey,
                       fontSize: MediaQuery.of(context).size.height / 6,
@@ -65,7 +65,7 @@ class _AuthScreenState extends State<AuthScreen> {
                           MediaQuery.of(context).size.height / 50,
                         ),
                         child: Text(
-                          "SIGN IN",
+                          'SIGN IN',
                           style: TextStyle(
                             fontWeight: FontWeight.w300,
                             fontSize: MediaQuery.of(context).size.height / 40,
@@ -86,12 +86,12 @@ class _AuthScreenState extends State<AuthScreen> {
                               size: 25,
                             ),
                             isDense: true,
-                            labelText: " username",
+                            labelText: ' username',
                             alignLabelWithHint: true,
                             labelStyle: TextStyle(
                               color: Colors.black38,
                             ),
-                            hintText: "ex:Taylor",
+                            hintText: 'ex:Taylor',
                             hintStyle: TextStyle(
                               color: Colors.black12,
                             ),
@@ -144,10 +144,10 @@ class _AuthScreenState extends State<AuthScreen> {
                               size: 25,
                             ),
                             isDense: true,
-                            labelText: "password",
+                            labelText: 'password',
                             alignLabelWithHint: true,
                             labelStyle: TextStyle(color: Colors.black38),
-                            hintText: ("Password"),
+                            hintText: ('Password'),
                             hintStyle: TextStyle(color: Colors.black12),
                             fillColor: Colors.black38,
                             focusedBorder: OutlineInputBorder(
@@ -203,7 +203,7 @@ class _AuthScreenState extends State<AuthScreen> {
                               Padding(
                                 padding: const EdgeInsets.all(16.0),
                                 child: Text(
-                                  "SUBMIT",
+                                  'SUBMIT',
                                   style: TextStyle(color: Colors.white),
                                 ),
                               )
@@ -214,7 +214,7 @@ class _AuthScreenState extends State<AuthScreen> {
                         ),
                       ),
                       Text(
-                        "or",
+                        'or',
                         style: TextStyle(color: Colors.black38),
                       ),
                       //+++++SIGN IN WITH GOOGLE+++++//
@@ -235,14 +235,14 @@ class _AuthScreenState extends State<AuthScreen> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: <Widget>[
                               Image(
-                                image: AssetImage("assets/google-logo.png"),
+                                image: AssetImage('assets/google-logo.png'),
                                 height: 30,
                                 width: 30,
                               ),
                               Padding(
                                 padding:  EdgeInsets.all(MediaQuery.of(context).size.width * .034),
                                 child: Text(
-                                  "Sign in with Google",
+                                  'Sign in with Google',
                                   style: TextStyle(color: Colors.white),
                                 ),
                               )
@@ -269,14 +269,14 @@ class _AuthScreenState extends State<AuthScreen> {
                             children: <Widget>[
                               Image(
                                 color: Colors.white,
-                                image: AssetImage("assets/signup-logo2.png"),
+                                image: AssetImage('assets/signup-logo2.png'),
                                 height: 30,
                                 width: 30,
                               ),
                               Padding(
                                 padding: EdgeInsets.all(MediaQuery.of(context).size.width * .034),
                                 child: Text(
-                                  "New user? Sign Up.",
+                                  'New user? Sign Up.',
                                   style: TextStyle(color: Colors.white),
                                 ),
                               )
