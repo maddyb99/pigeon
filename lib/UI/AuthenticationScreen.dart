@@ -47,7 +47,7 @@ class _AuthScreenState extends State<AuthScreen> {
                   Radius.circular(20),
                 ),
               ),
-              elevation: 10,
+              elevation: 30,
               child: Container(
                 // color: Colors.pink,
                 constraints: BoxConstraints(
