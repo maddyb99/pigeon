@@ -49,6 +49,20 @@ class _AuthScreenState extends State<AuthScreen> {
                   borderRadius: BorderRadius.all(
                     Radius.circular(20),
                   ),
+
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.all(
+                  Radius.circular(20),
+                ),
+              ),
+              elevation: 30,
+              child: Container(
+                // color: Colors.pink,
+                constraints: BoxConstraints(
+                  minWidth: MediaQuery.of(context).size.width * 0.8,
+                  maxWidth: MediaQuery.of(context).size.width * 0.8,
+                  minHeight: MediaQuery.of(context).size.height / 2,
+                  maxHeight: MediaQuery.of(context).size.height * .6,
                 ),
                 elevation: 0,
                 child: Container(
